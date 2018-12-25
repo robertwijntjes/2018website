@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MainMenuComponent } from './main-menu/main-menu.component';
+import { HeaderSectionComponent } from './header-section/header-section.component';
+import { MainSectionComponent } from './main-section/main-section.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainMenuComponent
+    HeaderSectionComponent,
+    MainSectionComponent
   ],
   imports: [
     BrowserModule,
